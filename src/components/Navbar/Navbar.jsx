@@ -5,7 +5,7 @@ const Navbar = () => {
   const [menu, setMenu] = useState("home");
 
   return (
-    <div className='padding-20px 0px flex justify-around items-center'>
+    <div className='padding-20px 0px flex justify-around items-center mt-5'>
       <img src={assets.logo} alt="" className='w-[150px]' />
       <ul className='flex list-none gap-[20px] text-[#495557] text-[18px]'>
         <li 
