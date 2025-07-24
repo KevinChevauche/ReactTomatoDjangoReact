@@ -10,6 +10,7 @@ const Home = () => {
     <div className='w-full h-full px-8 relative align-center justify-center overflow-x-hidden'>
         <Header />
         <ExploreMenu category={category} setCategory={setCategory}/>
+        <FoodDisplay category={category}/>
     </div>
   )
 }

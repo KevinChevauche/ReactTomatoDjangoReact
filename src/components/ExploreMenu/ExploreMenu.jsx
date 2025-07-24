@@ -28,7 +28,13 @@ const ExploreMenu = ({category,setCategory}) => {
         }
         #explore-menu-liste {
           scrollbar-width: none;
-          -ms-overflow-style: none; /* IE et Edge */
+          -ms-overflow-style: none;
+        }
+        #explore-menu-liste .active {
+          border: 6px solid #ff6347;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          border-radius: 50%;
+          padding: 2px;
         }
       `}</style>
     </div>
